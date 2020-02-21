@@ -32,6 +32,12 @@ textarea{
     box-sizing: border-box;
     margin-bottom: 10px;
 }
+input:focus,
+textarea:focus{
+    border-color: #EC4F90;
+    box-shadow: none;
+    outline: none;
+}
 input[type="submit"]{
     border: none;
     max-width: 100px;
@@ -169,7 +175,7 @@ section{
     margin: 0;
 }
 #footer-copyright-section{
-    padding: 10px;
+    padding: 15px;
 }
 .copyright-text{
     text-align: center;
